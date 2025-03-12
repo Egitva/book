@@ -33,3 +33,10 @@ h2 {
 .righten {
     text-align: right;
 }
+.titlemain {
+    float: left;
+    margin-top: -30px;
+}
+.titlemain a {
+    text-decoration: none;
+}
