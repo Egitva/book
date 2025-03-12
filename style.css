@@ -14,6 +14,15 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.image {
+    width: 350px; /* Set initial size */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.image:hover {
+    transform: scale(1.2); /* Enlarge image on hover */
+}
+
 h1 {
     color: #333;
 }
@@ -39,4 +48,12 @@ h2 {
 }
 .titlemain a {
     text-decoration: none;
+}
+.menubook {
+    text-align: center;
+    margin-top: 250px;
+}
+.menubook img {
+    margin-left: 150px;
+    margin-right: 150px;
 }
