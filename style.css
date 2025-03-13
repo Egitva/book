@@ -13,11 +13,22 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .image {
-    width: 350px; /* Set initial size */
+    margin-left: -207px;
+    width: 56%; /* Set initial size */
     transition: width 0.3s; /* Smooth transition for hover effect */
+    border-radius: 10%;
 }
 .image:hover {
-    width: 400px; /* Enlarge image on hover */
+    width: 75%; /* Enlarge image on hover */
+}
+.imageR {
+    margin-left: -180px;
+    width: 60%; /* Set initial size */
+    transition: width 0.3s; /* Smooth transition for hover effect */
+    border-radius: 10%;
+}
+.imageR:hover {
+    width: 80%; /* Enlarge image on hover */
 }
 h1 {
     color: #333;
@@ -47,12 +58,14 @@ h2 {
 .menubook {
     text-align: center;
 }
-.menubook img {
-    border-radius: 10%;
-}
 .menubook p {
     font-size: 25px;
 }
 .post {
     display: flex;
+}
+.timer {
+    font-size: 130%;
+    margin-top: -50px;
+    text-align: center;
 }
