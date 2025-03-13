@@ -14,10 +14,10 @@ body {
 }
 .image {
     width: 350px; /* Set initial size */
-    transition: width 0.3s; /* Smooth transition for hover effect */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
 }
 .image:hover {
-    width: 400px; /* Enlarge image on hover */
+    transform: scale(1.2); /* Enlarge image on hover */
 }
 h1 {
     color: #333;
@@ -35,7 +35,6 @@ h2 {
 }
 .righten {
     text-align: right;
-    margin-top: -35px;
 }
 .titlemain {
     float: left;
@@ -46,13 +45,9 @@ h2 {
 }
 .menubook {
     text-align: center;
+    margin-top: 250px;
 }
 .menubook img {
-    border-radius: 10%;
-}
-.menubook p {
-    font-size: 25px;
-}
-.post {
-    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
 }
